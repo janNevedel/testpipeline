@@ -1,6 +1,6 @@
 node ('master') {
   stage('Prepare') {
-    git 'https://git.elostech.cz/jan.nevedel/myapp-cicd.git'
+    git 'https://github.com/janNevedel/testpipeline.git'
     echo 'Testing build'
   }
   stage('Build') {

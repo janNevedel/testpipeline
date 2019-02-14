@@ -8,7 +8,7 @@ spec:
       value: "moje-demo"
   source:
     git:
-      uri: "https://git.elostech.cz/jan.nevedel/myapp-cicd.git"
+      uri: "https://github.com/janNevedel/testpipeline.git"
   strategy:
     jenkinsPipelineStrategy:
       jenkinsfilePath: Jenkinsfile
